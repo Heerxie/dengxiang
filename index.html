@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body>
+<div id="lightBox">
+    <figure class="figClass">
+        <img src="img/1.jpg"/>
+        <figcaption class="">点击查看</figcaption>
+    </figure>
+    <figure class="figClass">
+        <img src="img/2.jpg"/>
+        <figcaption class="">点击查看</figcaption>
+    </figure>
+    <figure class="figClass">
+        <img src="img/3.jpg"/>
+        <figcaption class="">点击查看</figcaption>
+    </figure>
+    <figure class="figClass ">
+        <img src="img/4.jpg"/>
+        <figcaption class="">点击查看</figcaption>
+    </figure>
+    <figure class="figClass ">
+        <img src="img/5.jpg"/>
+        <figcaption class="">点击查看</figcaption>
+    </figure>
+    <figure class="figClass ">
+        <img src="img/6.jpg"/>
+        <figcaption class="">点击查看</figcaption>
+    </figure>
+</div>
+<script src="js/lighbox.js"></script>
+<script>
+    lightbox({
+    point:"#lightBox",
+    close:"img/close.png",
+    toPre:"img/toPre.png",
+    toNext:"img/toNext.png"
+  });
+</script>
+</body>
+</html>
